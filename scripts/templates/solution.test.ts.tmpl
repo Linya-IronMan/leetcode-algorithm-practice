@@ -1,0 +1,10 @@
+import { describe, it, expect } from 'vitest';
+import { ${method_name} } from './solution';
+import cases from '../testcases.json';
+
+describe('${problem_title}', () => {
+    it.each(cases)('case %#', (c) => {
+        const args = c.input as unknown as Parameters<typeof ${method_name}>;
+        expect(${method_name}(...args)).toEqual(c.output);
+    });
+});

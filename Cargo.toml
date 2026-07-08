@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "problems/0001-two-sum/rust",
+    # 后面会自动被 manage.py 维护
+]
+resolver = "2"
+
+[workspace.dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"

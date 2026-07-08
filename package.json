@@ -1,0 +1,15 @@
+{
+  "name": "leetcode-algorithm-practice",
+  "version": "1.0.0",
+  "description": "LeetCode Multi-language practice repository",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "new": "python manage.py new",
+    "tc": "python manage.py test"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}

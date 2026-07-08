@@ -1,0 +1,5 @@
+node_modules/
+.vitest/
+*.class
+/target/
+.DS_Store
