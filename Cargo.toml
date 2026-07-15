@@ -1,5 +1,6 @@
 [workspace]
 members = [
+    "problems/0009-palindrome-number/rust",
     "problems/0001-two-sum/rust",
     # 后面会自动被 manage.py 维护
 ]
